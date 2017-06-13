@@ -1,0 +1,13 @@
+{
+  "name": "subreddit_gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gallery.js",
+  "author": "Shaul Robinov",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-uglify": "^3.0.1"
+  }
+}

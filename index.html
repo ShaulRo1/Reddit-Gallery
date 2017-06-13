@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/reddit.js@0.1.4/reddit.min.js"></script>
+		<script type="text/javascript" src="script.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.min.css"></link>
+	</head>
+	<body>
+		<div class="header">
+			<input type="text" id="searchBox" onkeyup="fetchFromSubreddit()">
+			<span type="text" id="postTitle"></span>
+		</div>
+		<div class="gallery">
+			<div class="item-1 col">
+				<a target="_blank">
+					<img id="img1">
+				</a>
+			</div>
+
+			<div class="item-2 col">
+				<a target="_blank">
+					<img id="img2">
+				</a>
+			</div>
+
+			<div class="item-3 col">
+				<a target="_blank">
+					<img id="img3">
+				</a>
+			</div>
+
+			<div class="item-4 col">
+				<a target="_blank">
+					<img id="img4">
+				</a>
+			</div>
+
+			<div class="item-5 col">
+				<a target="_blank">
+					<img id="img5">
+				</a>
+			</div>
+
+			<div class="item-6 col">
+				<a target="_blank">
+					<img id="img6">
+				</a>
+			</div>
+			
+			<div class="item-7 col">
+				<a target="_blank">
+					<img id="img7">
+				</a>
+			</div>
+			
+			<div class="item-8 col">
+				<a target="_blank">
+					<img id="img8">
+				</a>
+			</div>
+		</div>
+		
+		<div class="browseMenu">
+			<button id="previous" onclick="updateBatch(this.id)" class="button">Previous</button>
+			<button id="next" onclick="updateBatch(this.id)" class="button">Next</button>
+		</div>
+	</body>
+</html>

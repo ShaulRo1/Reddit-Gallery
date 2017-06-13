@@ -1,0 +1,32 @@
+#searchBox{
+	background-position: center; 
+    background-repeat: no-repeat;
+	background-color:#E5FFCC;
+	width:25%;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #ddd;
+	margin: 10px 0px 6px 0px;
+}
+#postTitle{
+	color:#808080;
+	font-family: arial;
+	display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	background-color:#FFE5CC;
+	width:65%;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #ddd;
+	margin: 10px 0px 6px 15px;
+    
+}
+
+
+.header{
+	display:flex;
+	justify-content:center;
+	margin-bottom:10px;
+}

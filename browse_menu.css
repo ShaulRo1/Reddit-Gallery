@@ -1,0 +1,29 @@
+
+.button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#00CCCC;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:hover{
+	background-color: #009999;
+}
+
+.browseMenu{
+	display:flex;
+	justify-content:space-around;
+	margin-top:10px;
+}
